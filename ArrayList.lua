@@ -48,7 +48,7 @@ function ArrayLib.Add(Name,Suffix)
     label.Size = UDim2.new(0,183,0,25)
     label.BackgroundTransparency = 1
     label.TextScaled = true
-    label.TextStrokeTransparency = shared["CometConfigs"].StrokeTransparency
+    label.TextStrokeTransparency = shared["TapewareConfigs"].StrokeTransparency
     label.TextColor3 = Color3.fromHSV(tick()%5/5,1,1)
     label.Parent = frm
     spawn(function()
